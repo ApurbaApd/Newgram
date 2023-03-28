@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap");
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family:'Lora', serif;
+}
+
+form{
+  background-color: rgb(211, 181, 216);
+}
+
+.zoom-animation {
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

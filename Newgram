@@ -1,0 +1,15 @@
+Apduser
+
+mEnkW1uGixPsFu8Q
+
+mongodb+srv://Apduser:mEnkW1uGixPsFu8Q@cluster0.4kqvddr.mongodb.net/?retryWrites=true&w=majority
+
+.env
+
+MONGO_URL=mongodb+srv://Apduser:mEnkW1uGixPsFu8Q@cluster0.4kqvddr.mongodb.net/?retryWrites=true&w=majority
+
+JWT_SECRET='edtrfytgyhskjkdskjuweytfyujsv'
+PORT=3001
+
+
+npm run start
